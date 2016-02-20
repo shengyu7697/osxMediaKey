@@ -5,7 +5,7 @@
 
 void usage(char *process_name)
 {
-    printf("%s [brightnessdown|brightnessup|rewind|play|fast|mute|voldown|volup]\n", process_name);
+    printf("Usage: %s [brightnessdown|brightnessup|rewind|play|fast|mute|voldown|volup]\n", process_name);
 }
 
 int main(int argc, char *argv[]) {
