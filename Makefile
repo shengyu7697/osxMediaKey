@@ -4,6 +4,8 @@ CC = gcc
 CFLAGS = -O3 -Wall
 LDFLAGS = -framework Cocoa -framework IOKit
 RM = rm -rf
+COPY = cp -f
+MKDIR = mkdir -p
 SRCS = $(wildcard *.m)
 OBJS = $(SRCS:.m=.o)
 
@@ -18,4 +20,8 @@ $(TARGET): $(OBJS)
 	$(CC) -c $(CFLAGS) -o $@ $<
 
 clean:
-	$(RM) $(OBJS) $(TARGET)
+	$(RM) $(OBJS) $(TARGET) $(TARGET).app
+
+app: all
+	$(MKDIR) $(TARGET).app/Contents/MacOS/
+	$(COPY) $(TARGET) $(TARGET).app/Contents/MacOS/
