@@ -1,5 +1,7 @@
 # osxMediaKey
-Simple OS X application to trigger the media key.
+Simple OS X application to trigger the media key.  
+
+Support media key:  
 - Brightness down
 - Brightness up
 - Rewind
@@ -15,4 +17,4 @@ make
 ./osxMediaKey [brightnessdown|brightnessup|rewind|play|fast|mute|voldown|volup]
 ```
 # Reference
-https://github.com/puffnfresh/osxplaypause.git
+[https://github.com/puffnfresh/osxplaypause.git](https://github.com/puffnfresh/osxplaypause.git)  
