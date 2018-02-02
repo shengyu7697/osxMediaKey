@@ -17,4 +17,4 @@ make
 ./osxMediaKey [brightnessdown|brightnessup|rewind|play|fast|mute|voldown|volup]
 ```
 # Reference
-[https://github.com/puffnfresh/osxplaypause.git](https://github.com/puffnfresh/osxplaypause.git)  
+[osxplaypause.app](https://github.com/puffnfresh/osxplaypause.git)  
